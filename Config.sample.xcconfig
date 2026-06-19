@@ -1,0 +1,2 @@
+// Copy this file to Config.xcconfig and provide your LTA DataMall account key.
+LTA_DATAMALL_ACCOUNT_KEY =

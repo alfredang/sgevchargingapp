@@ -1,0 +1,8 @@
+.env
+*.p8
+*.xcconfig
+!Config.sample.xcconfig
+DerivedData/
+build/
+*.xcarchive
+*.ipa

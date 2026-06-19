@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351A80E533A69A3994FFB6D2 /* LTADataMallClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065E0B9F0AB9A1BAB04A920D /* LTADataMallClient.swift */; };
+		3C69AC54956BB3315CACE411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458F729F19FAB6C826C3575D /* ContentView.swift */; };
+		55A0D64839A7768DF3B4D45B /* UserLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9FF76726CBE8D88CD88F5 /* UserLocationProvider.swift */; };
+		6D11C4875A5E982753F1449C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C905CAC2D4728F7D685AF33 /* Theme.swift */; };
+		81FACC7D70EFF990FC1939C4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 63153C78A472A4778D915C11 /* PrivacyInfo.xcprivacy */; };
+		970F3A73D4C8DBACF2AF48DA /* ChargingSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36D74B269740F410F1BA26B /* ChargingSearchViewModel.swift */; };
+		AEB81B5E669278209CDCB418 /* SGEVChargingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5D624F5E48A9153F94626 /* SGEVChargingApp.swift */; };
+		CC54DD2D2BAC20A0879EE161 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544FD37723DB52540DDBFA7B /* Models.swift */; };
+		D56506B7D00BA3E4A54038B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24433E0C90F8EB84C83423C3 /* Assets.xcassets */; };
+		D5ED6A3A79114238F64DE727 /* LocationSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B1589A36AD28495B7275D /* LocationSearchService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		065E0B9F0AB9A1BAB04A920D /* LTADataMallClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTADataMallClient.swift; sourceTree = "<group>"; };
+		24433E0C90F8EB84C83423C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C905CAC2D4728F7D685AF33 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		42902707C2524415D9BE75E8 /* SGEVCharging.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SGEVCharging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		458F729F19FAB6C826C3575D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		544FD37723DB52540DDBFA7B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		63153C78A472A4778D915C11 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8BA9FF76726CBE8D88CD88F5 /* UserLocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationProvider.swift; sourceTree = "<group>"; };
+		99FC565E5DE60F2BF20E970F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B36D74B269740F410F1BA26B /* ChargingSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingSearchViewModel.swift; sourceTree = "<group>"; };
+		E9A5D624F5E48A9153F94626 /* SGEVChargingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGEVChargingApp.swift; sourceTree = "<group>"; };
+		F61B1589A36AD28495B7275D /* LocationSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		56A819081DBAC30E39A5032B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24433E0C90F8EB84C83423C3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9976545DE72541D01DA37BB0 /* SGEVCharging */ = {
+			isa = PBXGroup;
+			children = (
+				B36D74B269740F410F1BA26B /* ChargingSearchViewModel.swift */,
+				458F729F19FAB6C826C3575D /* ContentView.swift */,
+				99FC565E5DE60F2BF20E970F /* Info.plist */,
+				F61B1589A36AD28495B7275D /* LocationSearchService.swift */,
+				065E0B9F0AB9A1BAB04A920D /* LTADataMallClient.swift */,
+				544FD37723DB52540DDBFA7B /* Models.swift */,
+				63153C78A472A4778D915C11 /* PrivacyInfo.xcprivacy */,
+				E9A5D624F5E48A9153F94626 /* SGEVChargingApp.swift */,
+				2C905CAC2D4728F7D685AF33 /* Theme.swift */,
+				8BA9FF76726CBE8D88CD88F5 /* UserLocationProvider.swift */,
+				56A819081DBAC30E39A5032B /* Resources */,
+			);
+			path = SGEVCharging;
+			sourceTree = "<group>";
+		};
+		CDD4F0D2EC7409A43C9BE5D1 = {
+			isa = PBXGroup;
+			children = (
+				9976545DE72541D01DA37BB0 /* SGEVCharging */,
+				FEBD4578D8C6D33DD4493C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBD4578D8C6D33DD4493C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42902707C2524415D9BE75E8 /* SGEVCharging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D648EEFEBCF98261512CE4C /* SGEVCharging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C01A39F1367002F6E458F53 /* Build configuration list for PBXNativeTarget "SGEVCharging" */;
+			buildPhases = (
+				6F7D86F00AD27111B04D59A0 /* Sources */,
+				322911A30D14D877BA0D5F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGEVCharging;
+			packageProductDependencies = (
+			);
+			productName = SGEVCharging;
+			productReference = 42902707C2524415D9BE75E8 /* SGEVCharging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF8DBED4BA28EE0992E67B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7D648EEFEBCF98261512CE4C = {
+						DevelopmentTeam = GU9WTSTX9M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 170E50372FD272D56E08313C /* Build configuration list for PBXProject "SGEVCharging" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CDD4F0D2EC7409A43C9BE5D1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FEBD4578D8C6D33DD4493C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D648EEFEBCF98261512CE4C /* SGEVCharging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322911A30D14D877BA0D5F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56506B7D00BA3E4A54038B7 /* Assets.xcassets in Resources */,
+				81FACC7D70EFF990FC1939C4 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F7D86F00AD27111B04D59A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970F3A73D4C8DBACF2AF48DA /* ChargingSearchViewModel.swift in Sources */,
+				3C69AC54956BB3315CACE411 /* ContentView.swift in Sources */,
+				351A80E533A69A3994FFB6D2 /* LTADataMallClient.swift in Sources */,
+				D5ED6A3A79114238F64DE727 /* LocationSearchService.swift in Sources */,
+				CC54DD2D2BAC20A0879EE161 /* Models.swift in Sources */,
+				AEB81B5E669278209CDCB418 /* SGEVChargingApp.swift in Sources */,
+				6D11C4875A5E982753F1449C /* Theme.swift in Sources */,
+				55A0D64839A7768DF3B4D45B /* UserLocationProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B422337E2039C2B6176C987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SGEVCharging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LTA_DATAMALL_ACCOUNT_KEY = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfredang.sgevcharging;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FB26C975B314B9080AE45E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GU9WTSTX9M;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8844E1AF13FFED568A13B5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GU9WTSTX9M;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B39C5B848C675CB6EA68717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SGEVCharging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LTA_DATAMALL_ACCOUNT_KEY = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfredang.sgevcharging;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170E50372FD272D56E08313C /* Build configuration list for PBXProject "SGEVCharging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8844E1AF13FFED568A13B5F4 /* Debug */,
+				4FB26C975B314B9080AE45E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2C01A39F1367002F6E458F53 /* Build configuration list for PBXNativeTarget "SGEVCharging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B39C5B848C675CB6EA68717 /* Debug */,
+				2B422337E2039C2B6176C987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF8DBED4BA28EE0992E67B7 /* Project object */;
+}
