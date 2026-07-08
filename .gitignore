@@ -6,3 +6,5 @@ DerivedData/
 build/
 *.xcarchive
 *.ipa
+.playwright-mcp/
+asc-*.png

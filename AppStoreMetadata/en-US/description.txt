@@ -1,0 +1,12 @@
+SG EV Charging helps drivers in Singapore find nearby electric vehicle charging points quickly.
+
+The app uses Apple Maps and LTA DataMall EV charging data to show charging locations around your current location, postal code, or searched place. It highlights the nearest charging point, available connectors, plug types, charging speeds, operators, and the last updated time from the LTA data feed.
+
+Features:
+- Automatically detect your current location.
+- Search by Singapore postal code or place name.
+- View nearby EV charging points on Apple Maps.
+- See connector availability, plug type, power rating, and operator details.
+- Open driving directions in Apple Maps.
+
+SG EV Charging is designed for a simple map-first workflow: open the app, find the nearest charging point, and start navigation.

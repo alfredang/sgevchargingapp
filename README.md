@@ -10,6 +10,8 @@
 
 **Find nearby EV charging points in Singapore with live availability from LTA DataMall.**
 
+[<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="48">](https://apps.apple.com/app/sg-ev-charging/id6782317854)
+
 [Report Bug](https://github.com/alfredang/sgevchargingapp/issues) · [Request Feature](https://github.com/alfredang/sgevchargingapp/issues)
 
 </div>
@@ -46,9 +48,12 @@ Key features:
 ```text
 SG EV Charging
 ├── SwiftUI Views
-│   ├── ContentView
+│   ├── RootView (tab navigation)
+│   ├── ContentView (map & search)
 │   ├── ChargingResultCard
-│   └── MiniResultChip
+│   ├── MiniResultChip
+│   ├── FeedbackView
+│   └── AboutView
 ├── State & Search
 │   └── ChargingSearchViewModel
 ├── Location
@@ -70,11 +75,14 @@ SG EV Charging
 ├── SGEVCharging.xcodeproj
 ├── SGEVCharging
 │   ├── SGEVChargingApp.swift
+│   ├── RootView.swift
 │   ├── ContentView.swift
 │   ├── ChargingSearchViewModel.swift
 │   ├── LTADataMallClient.swift
 │   ├── LocationSearchService.swift
 │   ├── UserLocationProvider.swift
+│   ├── FeedbackView.swift
+│   ├── AboutView.swift
 │   ├── Models.swift
 │   ├── Theme.swift
 │   ├── Info.plist

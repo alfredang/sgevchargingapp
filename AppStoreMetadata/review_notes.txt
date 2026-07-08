@@ -1,0 +1,9 @@
+This app does not require a login or demo account.
+
+Core review flow:
+1. Launch the app.
+2. Allow location permission when prompted, or search for a Singapore postal code such as 238801.
+3. The app loads LTA DataMall EV charging data and shows nearby charging points on Apple Maps.
+4. Tap "Directions in Maps" to open Apple Maps navigation.
+
+The app does not collect user account data and does not provide account creation.
